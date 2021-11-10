@@ -15,7 +15,9 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
       <div class="weather-app">
+        <div class="overview">
       <h1>
         New York
       </h1>
@@ -27,12 +29,18 @@
           Clear
         </li>
       </ul>
+      </div>
       <div class="row">
         <div class ="col-6">
+          <div class="clearfix weather-temperature">
         <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
         alt="sunny"
+        class="float-left"
         />
-        12 ℉ | ℃
+        <div clas="float-left">
+        <strong>12 </strong><span class="units"><a href="#">°F</a> | <a href="#">°C</a></span>
+        </div>
+      </div>
       </div>
       <div class="col-6">
         <ul>
@@ -47,15 +55,14 @@
           </li>
         </ul>
       </div>
-      </div>
-      <small>
+      </div>   
+    </div>
+       <small>
         <a href="https://github.com/nicstewart0022/weather-app-week7"
          target="_blank"
         >Open-source code</a> by: Nicole Stewart
-        
       </small>
-      
-    </div>
+      </div>
     <script src="src/app.js"></script>
   </body>
 </html>
