@@ -47,12 +47,12 @@ li:first-letter {
 }
 .weather-temperature strong {
   color: #fc709b;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
 }
 .weather-temperature .units {
   position: relative;
-  font-size: 10px;
+  font-size: 14px;
   top: -10px;
   color: #fc709b;
 }
@@ -72,11 +72,24 @@ li:first-letter {
 }
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
 }
 .weather-forecast-temperatures {
   font-size: 13px;
 }
 .weather-forecast-temperatures-min {
   opacity: 0.5;
+}
+
+.button {
+  background-color: #fcd053;
+  color: #fff;
+  border: 1px solid #fcd053;
+  border-radius: 20px;
+  padding: 7px;
+  transition: 200ms ease-in-out;
+}
+.button:hover {
+  background-color: #fff;
+  color: #fcd053;
+  cursor: pointer;
 }
